@@ -16,11 +16,15 @@
     "kernels": [
         "linux"
     ],
-    "keyboard-language": "us",
+    "keyboard-language": "no",
     "mirror-region": "Worldwide",
     "nic": {
-        "NetworkManager": true,
-        "nic": "Use NetworkManager (necessary to configure internet graphically in GNOME and KDE)"
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
     },
     "ntp": true,
     "packages": ["docker", "git", "wget", "zsh"],
@@ -28,5 +32,5 @@
     "services": ["docker"],
     "sys-encoding": "utf-8",
     "sys-language": "en_US",
-    "timezone": "US/Eastern"
+    "timezone": "Europe/Oslo"
 }
