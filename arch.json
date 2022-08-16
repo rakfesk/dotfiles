@@ -16,7 +16,7 @@
     "kernels": [
         "linux"
     ],
-    "keyboard-language": "no",
+    "keyboard-layout": "no",
     "mirror-region": "Worldwide",
     "nic": {
         "dhcp": true,
