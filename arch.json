@@ -7,7 +7,7 @@
         "usermod -aG docker devel"
     ],
     "filesystem": "btrfs",
-    "gfx_driver": "VMware / VirtualBox (open-source)",
+    "gfx_driver": "All open-source (default)",
     "harddrives": [
         "/dev/vda"
     ],
@@ -17,6 +17,7 @@
         "linux"
     ],
     "keyboard-layout": "no",
+    "keyboard-language": "no",
     "mirror-region": "Worldwide",
     "nic": {
         "dhcp": true,
